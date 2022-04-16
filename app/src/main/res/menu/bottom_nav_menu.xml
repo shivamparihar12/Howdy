@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/chatFragment"
+        android:icon="@drawable/ic_baseline_wechat_24"
+        android:title="Chats" />
+    <item
+        android:id="@+id/calls"
+        android:icon="@drawable/ic_outline_call_24"
+        android:title="Calls" />
+    <item
+        android:id="@+id/no"
+        android:title="no"
+        android:enabled="false"/>
+    <item
+        android:id="@+id/contacts"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Contacts" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_outline_settings_24"
+        android:title="Settings" />
+</menu>
