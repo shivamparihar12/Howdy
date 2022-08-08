@@ -63,10 +63,7 @@ public class MainActivity extends AppCompatActivity {
         //NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
 
-        mAuth = FirebaseAuth.getInstance();
-        if (mAuth.getCurrentUser() == null) {
-            startActivity(new Intent(MainActivity.this, SignInActivity.class));
-        }
+
 
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.READ_CONTACTS) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_CONTACTS}, 100);
@@ -74,7 +71,11 @@ public class MainActivity extends AppCompatActivity {
             getContactList();
             //viewModel.contactNoList.setValue(phoneNoArrayList);
         }
-
+        mAuth = FirebaseAuth.getInstance();
+        if (mAuth.getCurrentUser() == null) {
+            Log.d("mainact","maintosign");
+            startActivity(new Intent(getApplicationContext(), SignInActivity.class));
+        }
 
 
 //        otpInputs();

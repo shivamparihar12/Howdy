@@ -37,6 +37,7 @@ public class ChatFragment extends Fragment {
     private ArrayList<Users> usersArrayList;
     private ArrayList<StoryModel> storyModelArrayList;
     private FirebaseDatabase firebaseDatabase;
+    private  FirebaseAuth firebaseAuth;
     private final String TAG = "ChatFragment";
     MainActivityViewModel viewModel;
     ArrayList<Users> arrayList;
@@ -126,6 +127,7 @@ public class ChatFragment extends Fragment {
             }
         });
 
+        if(FirebaseAuth.getInstance().getCurrentUser()!=null)
         checkIfUserHasStory();
 
     }

@@ -21,11 +21,12 @@
         <entry key="..\:/Howdy/app/src/main/res/layout/activity_camera.xml" value="0.2" />
         <entry key="..\:/Howdy/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Howdy/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
-        <entry key="..\:/Howdy/app/src/main/res/layout/activity_message.xml" value="1.0" />
+        <entry key="..\:/Howdy/app/src/main/res/layout/activity_message.xml" value="0.264" />
         <entry key="..\:/Howdy/app/src/main/res/layout/activity_sign_in.xml" value="0.25416666666666665" />
         <entry key="..\:/Howdy/app/src/main/res/layout/activity_story2.xml" value="0.25416666666666665" />
         <entry key="..\:/Howdy/app/src/main/res/layout/fragment_calls.xml" value="0.25416666666666665" />
         <entry key="..\:/Howdy/app/src/main/res/layout/fragment_chat.xml" value="0.264" />
+        <entry key="..\:/Howdy/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
         <entry key="..\:/Howdy/app/src/main/res/layout/fragment_message.xml" value="0.264" />
         <entry key="..\:/Howdy/app/src/main/res/layout/received_message.xml" value="0.25416666666666665" />
         <entry key="..\:/Howdy/app/src/main/res/layout/sent_message.xml" value="0.4" />
