@@ -10,6 +10,6 @@ LOGIN FEATURE:
 CHAT FEATURE:
 <br>
 <br>
-<img src="https://github.com/shivamparihar12/Howdy/blob/master/videos/chat.gif" width="275" height="500"/>
+<img src="https://github.com/shivamparihar12/Howdy/blob/master/videos/chat.gif" width="250" height="500"/>
 
 
